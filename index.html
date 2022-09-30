@@ -8,7 +8,11 @@
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/styles.css" />
-
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/rellax/1.12.1/rellax.min.js"
+      integrity="sha512-f5HTYZYTDZelxS7LEQYv8ppMHTZ6JJWglzeQmr0CVTS70vJgaJiIO15ALqI7bhsracojbXkezUIL+35UXwwGrQ=="
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <!-- Header-->
@@ -77,7 +81,7 @@
             </svg>
           </div>
           <div>
-            <h2>$750000</h2>
+            <h2>$750 000</h2>
             <p class="text text--small text--regular text--muted">Уже заработано учениками</p>
           </div>
         </div>
@@ -114,73 +118,125 @@
 
     <!-- Trade securely -->
     <section class="trade-securely">
-      <h2>Check how much you can earn</h2>
-      <p class="text text--standart text--regular text--muted">Let’s check your hash rate to see how much you will earn today, Exercitation veniam consequat sunt nostrud amet.</p>
+      <h2>Тарифы</h2>
+      <p class="text text--standart text--regular ">Находясь в нашем сообществе вы достигнете своих финансовых
+        целей, намного быстрее</p>
       <div class="calculate">
-        <div class="calculate__header">
-          <input type="text" placeholder="Enter your hash rate" />
-          <input list="rates" name="rate" id="rate" value="TH/s" />
-          <datalist id="rates">
-            <option value="TH/s" selected></option>
-          </datalist>
+         <div class="currencies">
+           <div class="card card--white first_card">
 
-          <button class="btn btn--accent">Calculate</button>
+          <div class="card__header">
+            <h3>10 дней</h3>
+
+          </div>
+          <p class="text text-small text--regular card__text">5 000 RUB</p>
+          <a class="btn btn--flex btn--accent" href="https://p2ptify_bot.t.me">
+            <span class="text--standart text--medium">Перейти</span>
+            <div class="chiron-icon-container">
+              <img src="images/chevron-right.svg" alt="Right Icon" />
+            </div>
+          </a>
         </div>
-        <div class="calculate__body">
-          <p class="text text--small text--medium text--accent text--uppercase">Estimated 24 Hour Revenue:</p>
-          <h3>0.055 130 59 ETH <span class="text--accent">($1275)</span></h3>
-          <p class="text text--small text--regular text--grey">Revenue will change based on mining difficulty and Ethereum price.</p>
+        <div class="card card--white">
+
+          <div class="card__header">
+            <h3>1 месяц</h3>
+          </div>
+          <p class="text text-small text--regular card__text">20 000 RUB</p>
+          <a class="btn btn--flex btn--accent" href="https://p2ptify_bot.t.me">
+            <span class="text--standart text--medium">Перейти</span>
+            <div class="chiron-icon-container">
+              <img src="images/chevron-right.svg" alt="Right Icon" />
+            </div>
+          </a>
         </div>
+        <div class="card card--white">
+
+          <div class="card__header">
+            <h3>3 месяца</h3>
+          </div>
+          <p class="text text-small text--regular card__text">50 000 RUB</p>
+          <a class="btn btn--flex btn--accent" href="https://p2ptify_bot.t.me">
+            <span class="text--standart text--medium">Перейти</span>
+            <div class="chiron-icon-container">
+              <img src="images/chevron-right.svg" alt="Right Icon" />
+            </div>
+          </a>
+        </div>
+
+        <div class="card card--white">
+
+          <div class="card__header">
+            <h3>1 год</h3>
+          </div>
+          <p class="text text-small text--regular card__text">100 000 RUB</p>
+          <a class="btn btn--flex btn--accent" href="https://p2ptify_bot.t.me">
+            <span class="text--standart text--medium">Перейти</span>
+            <div class="chiron-icon-container">
+              <img src="images/chevron-right.svg" alt="Right Icon" />
+            </div>
+          </a>
+        </div>
+
+
+           </div>
       </div>
-      <h2 class="text--primary">Trade securely and market the high growth cryptocurrencies.</h2>
+      <h2 class="text--primary">Выберите нужное направление</h2>
+      <p class="banner__text text text--regular text--primary">Сделайте
+        первый шаг к
+        достижению
+        своих целей.
+В зависимости от вашего характера, целей и отношения к риску,
+вам подойдет либо трейдинг, либо инвестиции.</p>
       <div class="currencies">
-        <div class="card card--secondary">
+        <div class="card card--white">
           <svg class="currency-icon">
             <use xlink:href="images/currencies-sprite.svg#btc"></use>
           </svg>
           <div class="card__header">
-            <h3>Bitcoin</h3>
-            <span class="text text--standart text--medium">BTC</span>
+            <h3>Трейдинг</h3>
           </div>
-          <p class="text text-small text--regular card__text">Digital currency in which a record of transactions is maintained.</p>
-          <button class="btn btn--flex btn--accent">
-            <span class="text--standart text--medium">Start Mining</span>
-            <div class="chiron-icon-container">
-              <img src="images/chevron-right.svg" alt="Right Icon" />
-            </div>
-          </button>
+          <p class="text text-small text--regular card__text">торговля на валютном
+и фондовом рынке</p>
+
         </div>
         <div class="card card--white">
           <svg class="currency-icon">
             <use xlink:href="images/currencies-sprite.svg#eth"></use>
           </svg>
           <div class="card__header">
-            <h3>Ethereum</h3>
-            <span class="text text--standart text--medium">ETH</span>
+            <h3>Инвестиции</h3>
           </div>
-          <p class="text text-small text--regular card__text">Blockchain technology to create and run decentralized digital applications.</p>
+          <p class="text text-small text--regular card__text">инвестиции в
+фондовый рынок</p>
+
         </div>
         <div class="card card--white">
           <svg class="currency-icon">
             <use xlink:href="images/currencies-sprite.svg#ltc"></use>
           </svg>
           <div class="card__header">
-            <h3>Litecoin</h3>
-            <span class="text text--standart text--medium">LTC</span>
+            <h3>Криптовалюта</h3>
           </div>
-          <p class="text text-small text--regular card__text">Cryptocurrency that enables instant payments to anyone in the world.</p>
+          <p class="text text-small text--regular card__text">торговля и инвестиции
+в криптовалютном рынке</p>
+
         </div>
       </div>
     </section>
 
     <!-- Features -->
     <section class="features">
-      <h2>Market sentiments, portfolio, and run the infrastructure of your choice</h2>
-
+      <h2 >Подписка вам подойдет, если</h2>
+<!--      <h4 >Риски в инвестициях присутствуют всегда. Но речь идет о том, чтобы этот риск был-->
+<!--        не просто оправдан,-->
+<!--        а о-->
+<!--        сведении его к минимуму. Именно на это нацелены мы, наша бизнес-модель. Стратегия минимизации рисков-->
+<!--        предусматривает сразу несколько компонентов:</h4>-->
       <div class="grid grid--1x2 grid--centered banner-bottom-margin">
         <div class="banner banner--left">
-          <h2 class="banner__title">Invest Smart</h2>
-          <p class="banner__text text text--small text--regular text--muted">Get full statistic information about the behaviour of buyers and sellers will help you to make the decision.</p>
+          <h2 class="banner__title">1. Хотите инвестировать эффективно</h2>
+          <p class="banner__text text text--small text--regular text--muted">Вы сможете получить стабильный доход и защитить накопления от инфляции.</p>
           <button class="btn btn--accent">
             <span class="text--standart text--medium">Learn More</span>
           </button>
@@ -191,8 +247,8 @@
       <div class="grid grid--1x2 grid--centered banner-bottom-margin">
         <img src="images/statistics.svg" alt="Currency statistics" />
         <div class="banner">
-          <h2 class="banner__title">Detailed Statistics</h2>
-          <p class="banner__text text text--small text--regular text--muted">View all mining related information in realtime, at any point at any location and decide which polls you want to mine in.</p>
+          <h2 class="banner__title">2. Нет времени на аналитику</h2>
+          <p class="banner__text text text--small text--regular text--muted">Хотите сэкономить время на поиске информации, иметь доступ к аналитике и инвестидеям.</p>
           <button class="btn btn--accent">
             <span class="text--standart text--medium">Learn More</span>
           </button>
@@ -201,8 +257,8 @@
 
       <div class="grid grid--1x2 grid--centered">
         <div class="banner banner--left">
-          <h2 class="banner__title">Grow your profit and track your investments</h2>
-          <p class="banner__text text text--small text--regular text--muted">Use advanced analytical tools. Clear TradingView charts let you track current and historical profit investments.</p>
+          <h2 class="banner__title">3. Нет хватает знаний</h2>
+          <p class="banner__text text text--small text--regular text--muted">Повысите финансовую грамотность.</p>
           <button class="btn btn--accent">
             <span class="text--standart text--medium">Learn More</span>
           </button>
@@ -218,12 +274,12 @@
     <section class="start-mining">
       <div class="mining-container">
         <div class="mining-container__header">
-          <h3 class="mining-container__header__title">Start mining now</h3>
-          <p class="mining-container__header__description text text--small text--regular">Join now with P2Ptify to get the latest news and start mining now</p>
+          <h3 class="mining-container__header__title">Начать прямо сейчас</h3>
+          <p class="mining-container__header__description text text--small text--regular">Сделайте первый шаг к достижению своих целей.</p>
         </div>
         <div class="mining-container__subscribe">
-          <input type="text" placeholder="Enter your email" />
-          <button class="btn btn--white">Subscribe</button>
+
+          <a class="btn  btn--white " href="http://p2ptify_bot.t.me"><span class="text--standart text--medium">Начать</span></a>
         </div>
         <img class="background-item-8" src="images/background-item-8.svg" alt="" />
         <img class="background-item-9" src="images/background-item-9.svg" alt="" />
@@ -234,69 +290,27 @@
 
     <!-- Footer -->
     <footer class="footer">
-      <div class="footer__top">
-        <div class="footer__top__logo">
-          <img src="images/logo.svg" alt="P2Ptify brand logo" />
-          <span class="text text--medium">P2Ptify</span>
-        </div>
-        <div class="footer__top__menu">
-          <nav class="nav">
-            <p class="nav__title text text--medium">Quick Link</p>
-            <ul class="nav__list">
-              <li class="nav__list__item text text--small text--regular">Home</li>
-              <li class="nav__list__item text text--small text--regular">Products</li>
-              <li class="nav__list__item text text--small text--regular">About</li>
-              <li class="nav__list__item text text--small text--regular">Features</li>
-              <li class="nav__list__item text text--small text--regular">Contact</li>
-            </ul>
-          </nav>
-        </div>
-        <div class="footer__top__menu">
-          <nav class="nav">
-            <p class="nav__title text text--medium">Resources</p>
-            <ul class="nav__list">
-              <li class="nav__list__item text text--small text--regular">Download Whitepaper</li>
-              <li class="nav__list__item text text--small text--regular">Smart Token</li>
-              <li class="nav__list__item text text--small text--regular">Blockchain Explorer</li>
-              <li class="nav__list__item text text--small text--regular">Crypto API</li>
-              <li class="nav__list__item text text--small text--regular">Interest</li>
-            </ul>
-          </nav>
-        </div>
-        <div class="footer__top__payment-systems">
-          <p class="payment-systems__title">We accept following payment systems</p>
-          <div class="payment-systems__payments">
-            <div class="payment-icon-container">
-              <img src="images/visa.svg" alt="Visa Card" />
-            </div>
-            <div class="payment-icon-container">
-              <img src="images/mastercard.svg" alt="Master Card" />
-            </div>
-            <div class="payment-icon-container">
-              <img src="images/bitcoin.svg" alt="Bitcoin" />
-            </div>
-          </div>
-        </div>
-      </div>
+
       <div class="footer__bottom">
-        <div class="footer__bottom__copyright text text--small text--regular">&copy;2021 P2Ptify. All rights reserved.</div>
-        <div class="footer__bottom__social-media">
-          <svg class="social-icon">
-            <use xlink:href="images/social-media-sprite.svg#facebook"></use>
-          </svg>
-          <svg class="social-icon">
-            <use xlink:href="images/social-media-sprite.svg#instagram"></use>
-          </svg>
-          <svg class="social-icon">
-            <use xlink:href="images/social-media-sprite.svg#youtube"></use>
-          </svg>
-          <svg class="social-icon">
-            <use xlink:href="images/social-media-sprite.svg#twitter"></use>
-          </svg>
-          <svg class="social-icon">
-            <use xlink:href="images/social-media-sprite.svg#linkedin"></use>
-          </svg>
-        </div>
+        <div class="footer__bottom__copyright text text--small text--regular">&copy;2022 P2Ptify. All rights
+          reserved.</div>
+<!--        <div class="footer__bottom__social-media">-->
+<!--          <svg class="social-icon">-->
+<!--            <use xlink:href="images/social-media-sprite.svg#facebook"></use>-->
+<!--          </svg>-->
+<!--          <svg class="social-icon">-->
+<!--            <use xlink:href="images/social-media-sprite.svg#instagram"></use>-->
+<!--          </svg>-->
+<!--          <svg class="social-icon">-->
+<!--            <use xlink:href="images/social-media-sprite.svg#youtube"></use>-->
+<!--          </svg>-->
+<!--          <svg class="social-icon">-->
+<!--            <use xlink:href="images/social-media-sprite.svg#twitter"></use>-->
+<!--          </svg>-->
+<!--          <svg class="social-icon">-->
+<!--            <use xlink:href="images/social-media-sprite.svg#linkedin"></use>-->
+<!--          </svg>-->
+<!--        </div>-->
       </div>
     </footer>
     <script>

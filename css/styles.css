@@ -327,8 +327,12 @@ a {
 .btn--flex {
   display: inline-flex;
   align-items: center;
-}
 
+}
+.btn--bottom{
+
+
+}
 .btn--block {
   display: block;
   width: 100%;
@@ -337,6 +341,7 @@ a {
 /* Cards */
 
 .card {
+  flex:1 1;
   text-align: center;
   padding: 4.8rem 2.4rem;
   border-radius: 16px;
@@ -734,7 +739,7 @@ a {
     width: 40ch;
   }
   .calculate {
-    width: 100rem;
+    width: 105rem;
   }
   .calculate__header {
     padding-bottom: 5.5rem;
@@ -763,6 +768,11 @@ a {
     margin-right: calc(4rem * var(--tw-space-x-reverse));
     margin-left: calc(4rem * calc(1 - var(--tw-space-x-reverse)));
   }
+
+  .currencies .first_card {
+
+    margin-left: 0;
+  }
 }
 
 /* Features */
@@ -778,6 +788,12 @@ a {
   margin: 0 auto;
   margin-bottom: 5rem;
 }
+.features > h4 {
+    margin: 0 30rem;
+    margin-bottom: 7rem;
+
+}
+
 
 .features .banner {
   display: flex;
@@ -976,11 +992,11 @@ a {
 
 .nav__list__item {
   cursor: pointer;
-  transition: all 0.2 cubic-bezier(0.075, 0.82, 0.165, 1);
-  -webkit-transition: all 0.2 cubic-bezier(0.075, 0.82, 0.165, 1);
-  -moz-transition: all 0.2 cubic-bezier(0.075, 0.82, 0.165, 1);
-  -ms-transition: all 0.2 cubic-bezier(0.075, 0.82, 0.165, 1);
-  -o-transition: all 0.2 cubic-bezier(0.075, 0.82, 0.165, 1);
+  transition: all 0.2s cubic-bezier(0.075, 0.82, 0.165, 1);
+  -webkit-transition: all 0.2s cubic-bezier(0.075, 0.82, 0.165, 1);
+  -moz-transition: all 0.2s cubic-bezier(0.075, 0.82, 0.165, 1);
+  -ms-transition: all 0.2s cubic-bezier(0.075, 0.82, 0.165, 1);
+  -o-transition: all 0.2s cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
 .nav__list__item:hover {
