@@ -525,9 +525,9 @@ a {
   }
 }
 
-/* Why Crappo */
+/* Why P2Ptify */
 
-.why-crappo {
+.why-P2Ptify {
   position: relative;
   padding: 1rem 3rem 5rem;
   background-color: var(--color-primary);
@@ -559,15 +559,15 @@ a {
   margin-bottom: 8rem;
 }
 
-.why-crappo .banner {
+.why-P2Ptify .banner {
   text-align: center;
 }
 
-.why-crappo .banner__title {
+.why-P2Ptify .banner__title {
   margin-bottom: 2.4rem;
 }
 
-.why-crappo .banner__text {
+.why-P2Ptify .banner__text {
   margin-bottom: 3.2rem;
 }
 
@@ -596,7 +596,7 @@ a {
 }
 
 @media screen and(min-width: 1024px) {
-  .why-crappo {
+  .why-P2Ptify {
     padding: 10rem 12rem 10rem;
   }
   .media-container {
@@ -608,16 +608,16 @@ a {
     margin-bottom: 10rem;
   }
 
-  .why-crappo .banner {
+  .why-P2Ptify .banner {
     margin-left: 15rem;
     text-align: start;
   }
 
-  .why-crappo .banner__title {
+  .why-P2Ptify .banner__title {
     width: 20ch;
   }
 
-  .why-crappo .banner__text {
+  .why-P2Ptify .banner__text {
     width: 45ch;
   }
 }

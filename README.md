@@ -1,10 +1,10 @@
-# Crappo 
+# P2Ptify 
 
 Responsive Cryptocurrency template written using only HTML and CSS.
 
 ### Demo
 
-Click here to see [demo](https://crappo.vercel.app/)
+Click here to see [demo](https://P2Ptify.vercel.app/)
 
 ### Screenshots
 
@@ -32,7 +32,7 @@ Full-page screenshots can accessible in the screenshots folder.
 
 ### Design
 
-This [beautiful design](https://dribbble.com/shots/15067925--Freebie-CRAPPO-Cryptocurrency-Website) made by [Rizki Mulyawan](https://dribbble.com/mulyawan) and shared as freebie on Dribbble.
+This [beautiful design](https://dribbble.com/shots/15067925--Freebie-P2Ptify-Cryptocurrency-Website) made by [Rizki Mulyawan](https://dribbble.com/mulyawan) and shared as freebie on Dribbble.
 
 ### Photos
 
