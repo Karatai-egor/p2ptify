@@ -61,6 +61,7 @@ img {
 }
 
 @media screen and (min-width: 1024px) {
+
   html {
     font-size: 62.5%;
   }
@@ -384,6 +385,8 @@ a {
 /* Grids */
 
 @media screen and (min-width: 768px) {
+
+
   .grid {
     display: grid;
   }
@@ -434,6 +437,7 @@ a {
   .header {
     padding: 6rem 12rem 10rem;
   }
+
 }
 
 @media screen and (min-width: 768px) {
@@ -508,9 +512,11 @@ a {
 }
 
 @media screen and (min-width: 768px) {
+
   .header__body {
     text-align: start;
   }
+
 }
 
 @media screen and (min-width: 1024px) {
@@ -703,6 +709,12 @@ a {
 }
 
 @media screen and (max-width: 720px) {
+  .header{
+    height: 100vh;
+
+  }
+
+
   .calculate__header {
     display: flex;
     flex-direction: column;
@@ -717,6 +729,9 @@ a {
 
   .calculate__header > .btn {
     width: 100%;
+  }
+  .header__body{
+    margin: 40% 0;
   }
 }
 
@@ -787,6 +802,7 @@ a {
 .features > h2 {
   margin: 0 auto;
   margin-bottom: 5rem;
+  margin-top: 2rem;
 }
 .features > h4 {
     margin: 0 30rem;
@@ -946,6 +962,9 @@ a {
 }
 
 @media screen and (min-width: 768px) {
+
+
+
   .start-mining {
     padding: 10rem 12rem;
   }
@@ -957,6 +976,7 @@ a {
     justify-content: space-between;
     align-items: center;
   }
+
 }
 
 /* Footer */
